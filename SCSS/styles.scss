@@ -1,3 +1,14 @@
-body {
-    background-color: salmon;
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-bg {
+    width: 100%;
+
+    img {
+        width: 100%;
+        display: block;
+    }
 }

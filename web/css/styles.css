@@ -1,4 +1,17 @@
 /* line 1, SCSS/styles.scss */
-body {
-  background-color: salmon;
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 7, SCSS/styles.scss */
+#main-bg {
+  width: 100%;
+}
+
+/* line 10, SCSS/styles.scss */
+#main-bg img {
+  width: 100%;
+  display: block;
 }
