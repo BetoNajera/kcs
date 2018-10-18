@@ -61,4 +61,133 @@ html body .wrapper {
   }
 }
 
+/* line 51, SCSS/_globales.scss */
+html body figure {
+  margin: 0;
+}
+
+/* line 54, SCSS/_globales.scss */
+html body figure img {
+  width: 100%;
+  display: block;
+}
+
 /*=======  Fin de Aspectos Generales  ========*/
+/*==============================================
+=                     Header                   =
+===============================================*/
+/* line 5, SCSS/_header.scss */
+.menu-bar {
+  width: 100%;
+  height: 39px;
+  background-color: #005b81;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 300;
+}
+
+@media only screen and (min-width: 769px) {
+  /* line 5, SCSS/_header.scss */
+  .menu-bar {
+    display: none;
+  }
+}
+
+/* line 21, SCSS/_header.scss */
+.menu-bar .bt-menu {
+  width: 30px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+/* line 26, SCSS/_header.scss */
+.menu-bar .bt-menu .uno, .menu-bar .bt-menu .dos, .menu-bar .bt-menu .tres {
+  width: 100%;
+  height: 2px;
+  background-color: #40d1fa;
+  transition: all 1s ease;
+}
+
+/* line 33, SCSS/_header.scss */
+.menu-bar .bt-menu .dos {
+  margin: 6px 0;
+}
+
+/* line 39, SCSS/_header.scss */
+.menu-bar .bt-menu2 .dos {
+  opacity: 0;
+}
+
+/* line 43, SCSS/_header.scss */
+.menu-bar .bt-menu2 .uno {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+/* line 47, SCSS/_header.scss */
+.menu-bar .bt-menu2 .tres {
+  transform: rotate(-45deg) translate(6px, -7px);
+}
+
+/* line 54, SCSS/_header.scss */
+.fecha-menu #fecha {
+  display: none;
+}
+
+@media only screen and (min-width: 769px) {
+  /* line 54, SCSS/_header.scss */
+  .fecha-menu #fecha {
+    display: block;
+  }
+}
+
+/* line 62, SCSS/_header.scss */
+.fecha-menu .main-menu {
+  position: fixed;
+  width: 100%;
+  top: -280px;
+  left: 0;
+  background-color: rgba(0, 91, 129, 0.92);
+}
+
+/* line 70, SCSS/_header.scss */
+.fecha-menu .main-menu .menu li {
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* line 74, SCSS/_header.scss */
+.fecha-menu .main-menu .menu li a {
+  font-size: 1.6rem;
+  color: #d8e8ef;
+  text-transform: capitalize;
+  padding: 1rem 0;
+  display: block;
+}
+
+/*=============  Fin de Header  ==============*/
+/*==============================================
+=                      Main                    =
+===============================================*/
+/* line 5, SCSS/_main.scss */
+.seccion-home-hero {
+  padding: 2rem 0;
+}
+
+/* line 8, SCSS/_main.scss */
+.seccion-home-hero .contenedor-logos {
+  width: 180px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 769px) {
+  /* line 8, SCSS/_main.scss */
+  .seccion-home-hero .contenedor-logos {
+    width: 250px;
+  }
+}
+
+/*==============  Fin de Main  ===============*/

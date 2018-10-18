@@ -47,6 +47,15 @@ html {
                 max-width: 1200px;
             }
         }
+
+        figure {
+            margin: 0;
+
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
     }
 }
 

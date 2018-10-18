@@ -1,0 +1,18 @@
+/*==============================================
+=                      Main                    =
+===============================================*/
+
+.seccion-home-hero {
+    padding: $margen 0;
+
+    .contenedor-logos {
+        width: 180px;
+        margin: 0 auto;
+
+        @include dt {
+            width: 250px;
+        }
+    }
+}
+
+/*==============  Fin de Main  ===============*/
