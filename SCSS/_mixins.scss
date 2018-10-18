@@ -1,0 +1,18 @@
+// Media Queries
+@mixin tb {
+    @media only screen and (min-width: #{$tb}) {
+        @content;
+    }
+}
+
+@mixin dt {
+    @media only screen and (min-width: #{$dt}) {
+        @content;
+    }
+}
+
+@mixin hd {
+    @media only screen and (min-width: #{$hd}) {
+        @content;
+    }
+}

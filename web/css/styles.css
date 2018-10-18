@@ -1,0 +1,64 @@
+/*==============================================
+=               Aspectos Generales             =
+===============================================*/
+/* line 5, SCSS/_globales.scss */
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 11, SCSS/_globales.scss */
+ul li {
+  list-style: none;
+}
+
+/* line 15, SCSS/_globales.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 19, SCSS/_globales.scss */
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+/* line 23, SCSS/_globales.scss */
+html body {
+  height: 100%;
+  font: 10px "quattrocento-rg";
+}
+
+/* line 27, SCSS/_globales.scss */
+html body p, html body a {
+  font-size: 1.9rem;
+}
+
+/* line 31, SCSS/_globales.scss */
+html body p:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+/* line 35, SCSS/_globales.scss */
+html body .titulo {
+  font: 4rem "quattrocento-bd";
+  color: #005b81;
+  margin-bottom: 1rem;
+}
+
+/* line 41, SCSS/_globales.scss */
+html body .wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 769px) {
+  /* line 41, SCSS/_globales.scss */
+  html body .wrapper {
+    width: 83.3333333%;
+    max-width: 1200px;
+  }
+}
+
+/*=======  Fin de Aspectos Generales  ========*/

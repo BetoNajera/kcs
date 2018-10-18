@@ -1,0 +1,53 @@
+/*==============================================
+=               Aspectos Generales             =
+===============================================*/
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    height: 100%;
+    font-size: 62.5%;
+
+    body {
+        height: 100%;
+        font: 10px $font-rg;
+
+        p, a {
+            font-size: 1.9rem;
+        }
+
+        p:not(:last-child) {
+            margin-bottom: 2rem;
+        }
+
+        .titulo {
+            font: 4rem $font-bd;
+            color: $azul-fondo;
+            margin-bottom: 1rem;
+        }
+
+        .wrapper {
+            width: 90%;
+            margin: 0 auto;
+
+            @include dt {
+                width: 83.3333333%;
+                max-width: 1200px;
+            }
+        }
+    }
+}
+
+/*=======  Fin de Aspectos Generales  ========*/

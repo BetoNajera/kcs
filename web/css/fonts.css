@@ -1,0 +1,20 @@
+/* Quattrocento Sans */
+@font-face {
+    font-family: quattrocento-rg;
+    src: url(../fonts/QuattrocentoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: quattrocento-rg-it;
+    src: url(../fonts/QuattrocentoSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: quattrocento-bd;
+    src: url(../fonts/QuattrocentoSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: quattrocento-bd-it;
+    src: url(../fonts/QuattrocentoSans-BoldItalic.ttf);
+}
