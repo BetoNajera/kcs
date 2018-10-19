@@ -2,15 +2,151 @@
 =                      Main                    =
 ===============================================*/
 
+.seccion {
+    padding: $margen*2 0;
+
+    @include dt {
+        padding: $margen*3 0;
+    }
+}
+
 .seccion-home-hero {
-    padding: $margen 0;
+    margin-top: 39px;
+    background-image: url(../img/home-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+
+    @include dt {
+        margin-top: 47px;
+    }
 
     .contenedor-logos {
         width: 180px;
         margin: 0 auto;
+        perspective: 700;
+        -webkit-perspective: 700;
 
         @include dt {
             width: 250px;
+        }
+
+        .logo-card {
+            width: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            @include transicion(6);
+            transform: rotateY(1980deg);
+
+            &:hover {
+                transform: rotateY(0deg);
+            }
+        }
+
+        .frontal, .posterior {
+            backface-visibility: hidden;
+        }
+
+        .posterior {
+            position: absolute;
+            top: 0;
+            transform: rotateY(180deg);
+        }
+    }
+}
+
+.seccion-partida {
+    .wrapper {
+        @include dt {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .img-articulo {
+            margin-bottom: $margen;
+
+            @include dt {
+                margin-bottom: 0;
+                width: 500px;
+            }
+        }
+
+        .texto-articulo {
+            text-align: center;
+            @include dt {
+                text-align: left;
+                width: calc((100% - 500px) - #{$margen*1.5});
+            }
+
+            .cta {
+                @include cta($azul-fondo, $fondo-body, 10);
+            }
+        }
+    }
+}
+
+.seccion-cards {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    .card-container {
+        width: 50%;
+        perspective: 700;
+        -webkit-perspective: 700;
+
+        @include tb {
+            width: 33.3333333%;
+        }
+
+        @include dt {
+            width: 20%;
+        }
+
+        &:hover .card {
+            transform: rotateY(180deg);
+        }
+
+        .card {
+            width: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            @include transicion(3);
+
+            .posterior {
+                backface-visibility: hidden;
+            }
+
+            .posterior {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: $azul-fondo;
+                text-align: center;
+                display: flex;
+                flex-flow: column wrap;
+                justify-content: center;
+                align-items: center;
+                transform: rotateY(180deg);
+        
+                h3 {
+                    font-size: 1.9rem;
+                    color: $fondo-body;
+
+                    @include dt {
+                        font-size: 2.2rem;
+                    }
+                }
+        
+                .cta {
+                    margin-top: $margen;
+                    width: 110px;
+                    @include cta($fondo-body, $azul-fondo, 30);
+                }
+            }
         }
     }
 }

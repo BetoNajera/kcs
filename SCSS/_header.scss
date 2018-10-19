@@ -51,11 +51,31 @@
 }
 
 .fecha-menu {
+    @include dt {
+        width: 100%;
+        background-color: $azul-fondo;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 500;
+    }
+
+    .wrapper {
+        @include dt {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
     #fecha {
         display: none;
 
         @include dt {
             display: block;
+            color: $fondo-body;
+            font-size: 1.6rem;
+            margin-bottom: 0;
+            line-height: 47px;
         }
     }
 
@@ -65,11 +85,17 @@
         top: -280px;
         left: 0;
         background-color: rgba($azul-fondo, 0.92);
+        z-index: 500;
 
         .menu {
             li {
                 text-align: center;
                 border-top: 1px solid rgba(255,255,255,0.25);
+
+                @include dt {
+                    border-top: none;
+                    position: relative;
+                }
 
                 a {
                     font-size: 1.6rem;
@@ -77,8 +103,40 @@
                     text-transform: capitalize;
                     padding: $margen/2 0;
                     display: block;
+                    @include transicion(3);
+
+                    &:hover {
+                        background-color: darken($azul-fondo, 7);
+                    }
+
+                    @include dt {
+                        padding: 14px;
+                    }
+                }
+
+                .selected:after {
+                    content: '';
+                    width: 16px;
+                    height: 8px;
+                    background-image: url(../img/selected.png);
+                    position: absolute;
+                    top: 100%;
+                    right: calc(50% - 8px);
                 }
             }
+
+            @include dt {
+                display: flex;
+            }
+        }
+
+        @include dt {
+            position: relative;
+            width: auto;
+            top: 0;
+            left: 0;
+            background-color: transparent;
+            display: flex;
         }
     }
 }

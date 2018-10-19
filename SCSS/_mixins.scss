@@ -16,3 +16,23 @@
         @content;
     }
 }
+
+@mixin transicion($segundos) {
+    transition: all #{$segundos/10}s ease;
+}
+
+
+// Call to Action
+@mixin cta($fondo, $color, $darken) {
+    background-color: #{$fondo};
+    color: #{$color};
+    padding: $margen/2 $margen;
+    display: inline-block;
+    border-radius: 4px;
+    text-transform: capitalize;
+    @include transicion(3);
+
+    &:hover {
+        background-color: darken($fondo, $darken);
+    }
+}
