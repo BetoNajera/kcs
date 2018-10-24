@@ -1,0 +1,123 @@
+/*==============================================
+=                      Main                    =
+===============================================*/
+
+footer {
+    padding: $margen*2 0;
+    background-color: $azul-fondo;
+
+    .wrapper {
+        @include dt {
+            display: flex;
+            flex-flow: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    .datos-footer {
+        display: none;
+
+        @include dt {
+            display: block;
+        }
+    }
+
+    .rrss-icons {
+        display: flex;
+        justify-content: center;
+        
+        .rrss-icon {
+            width: 4rem;
+            height: 4em;
+            text-align: center;
+
+            &:not(:first-child) {
+                margin-left: $margen/3;
+            }
+
+            a {
+                width: 100%;
+                height: 100%;
+                display: block;
+                border-radius: 50%;
+                background-color: darken($fondo-body, 30);
+                @include transicion(3);
+
+                &:hover {
+                    background-color: darken($azul-fondo, 7);
+                }
+
+                .icon {
+                    font-size: 2.5rem;
+                    line-height: 4.7rem;
+                    color: $azul-fondo;
+                }
+            }
+
+            @include tb {
+                &:first-child,
+                &:last-child {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    p, a {
+        font-size: 1.5rem!important;
+        color: $fondo-body;
+        line-height: 2.4rem;
+        
+        &:not(:last-child) {
+            margin-bottom: 1rem!important;
+        }
+    }
+
+    p {
+        text-align: center;
+
+        @include dt {
+            text-align: left;
+        }
+
+        .linea-texto {
+            display: block;
+
+            @include dt {
+                display: inline;
+            }
+        }
+
+        .barra {
+            display: none;
+
+            @include dt {
+                display: inline;
+                margin: 0 6px;
+            }
+        }
+    }
+
+    .firma {
+        margin-top: $margen;
+        padding-top: $margen;
+        border-top: 1px solid rgba($fondo-body,0.2);
+
+        @include dt {
+            width: 100%;
+        }
+
+        p, a {
+            font-size: 1.3rem!important;
+            text-align: center;
+            opacity: 0.7;
+        }
+
+        a:hover {
+            color: $celeste-fondo;
+        }
+    }
+}
+
+/*==============  Fin de Main  ===============*/

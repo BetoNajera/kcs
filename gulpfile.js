@@ -9,7 +9,7 @@ gulp.task('sass', function() {
 	gulp.src('SCSS/styles.scss')
 	.pipe(plumber())
 	.pipe(autoprefixer({
-		versions: ['last 2 browsers']
+		browsers: ['last 4 versions']
 	}))
 	.pipe(sass({
 		outputStyle: 'expanded', // 'compact', 'compressed', 'nested'

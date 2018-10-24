@@ -1,3 +1,11 @@
+// Previene saltos indeseables en href="#"
+(function($) {
+	$('a[href="#"]').click( function(e) {
+		e.preventDefault();
+	} );
+} )( jQuery );
+
+
 // Ingreso de Fecha completa en la cabecera
 let fecha = new Date(),
 
@@ -28,6 +36,8 @@ let fecha = new Date(),
 
 	document.getElementById('fecha').innerHTML = dias[fecha.getDay()] + ', ' + fecha.getDate() + ' de ' + meses[fecha.getMonth()] + ' de ' + fecha.getFullYear();
 
+	document.getElementById('year').innerHTML = fecha.getFullYear();
+
 
 // Menu responsive
 $(document).ready(main_menu);
@@ -57,3 +67,10 @@ function main_menu() {
 		});
 	}
 }
+
+
+// Efecto transformación de logo
+setTimeout(function() {
+	$('.logo-card').css('transform', 'rotateY(0deg)');
+	$('.logo-card .frontal').css('opacity', 1);
+}, 2000);

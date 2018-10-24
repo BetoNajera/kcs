@@ -84,7 +84,7 @@
         width: 100%;
         top: -280px;
         left: 0;
-        background-color: rgba($azul-fondo, 0.92);
+        background-color: rgba($azul-fondo, 0.95);
         z-index: 500;
 
         .menu {
@@ -115,13 +115,15 @@
                 }
 
                 .selected:after {
-                    content: '';
-                    width: 16px;
-                    height: 8px;
-                    background-image: url(../img/selected.png);
-                    position: absolute;
-                    top: 100%;
-                    right: calc(50% - 8px);
+                    @include dt {
+                        content: '';
+                        width: 16px;
+                        height: 8px;
+                        background-image: url(../img/selected.png);
+                        position: absolute;
+                        top: 100%;
+                        right: calc(50% - 8px);
+                    }
                 }
             }
 
