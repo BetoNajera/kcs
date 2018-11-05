@@ -56,7 +56,7 @@
 
 <section class="seccion seccion-ubicanos fondo-celeste">
 	<div class="wrapper">
-		<h2 class="titulo">Ubácanos</h2>
+		<h2 class="titulo">Ubícanos</h2>
 	</div>
 
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.45446663541!2d-77.01434418518708!3d-12.081008991444493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c881b876539f%3A0xea0576fb277b8fd5!2sKallpa+Corredores+de+Seguros!5e0!3m2!1sen!2s!4v1496706235709" width="1200" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>

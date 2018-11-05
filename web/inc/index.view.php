@@ -89,11 +89,11 @@
 				<div class="rrss-icons">
 					<div class="rrss-icon"><a href="whatsapp://send?text=Saludos me comunico por medio de la web www.kcs.pe&phone=+51952190780&abid=+51952190780" class="whatsapp-btn"><span class="icon icon-whatsapp"></span></a></div>
 
-					<div class="rrss-icon"><a href="https://www.facebook.com/search/top/?q=kcs%20corredores%20de%20seguros" target="_blank" class="facebook-btn"><span class="icon icon-facebook"></span></a></div>
+					<div class="rrss-icon"><a href="https://www.facebook.com/kcscorredoresdeseguros/" target="_blank" class="facebook-btn"><span class="icon icon-facebook"></span></a></div>
 
-					<div class="rrss-icon"><a href="#" class="linkedin-btn"><span class="icon icon-linkedin"></span></a></div>
+					<div class="rrss-icon"><a href="https://www.linkedin.com/in/kcs-corredores-de-seguros-7b66b0173" target="_blank" class="linkedin-btn"><span class="icon icon-linkedin"></span></a></div>
 
-					<div class="rrss-icon"><a href="#" class="instagram-btn"><span class="icon icon-instagram"></span></a></div>
+					<div class="rrss-icon"><a href="https://www.instagram.com/kcs_corredores/" target="_blank" class="instagram-btn"><span class="icon icon-instagram"></span></a></div>
 
 					<div class="rrss-icon"><a href="#" class="location-btn"><span class="icon icon-location"></span></a></div>
 
@@ -101,7 +101,7 @@
 				</div>
 
 				<div class="firma">
-					<p><span class="linea-texto">&copy;<span id="year"></span> <span class="barra">|</span> KCS - Kallpa Corredores de Seguros</span> <span class="barra">|</span> <span class="linea-texto">Lima - Perú</span></p>
+					<p><span class="linea-texto">&copy;<span id="year"></span> <span class="barra">|</span> KCS - Kallpa Corredores de Seguros</span> <span class="barra">|</span> <span class="linea-texto"><a href="#">www.kcs.pe</a></span> <span class="barra">|</span> <span class="linea-texto">Lima - Perú</span></p>
 				</div>
 			</div>
 		</footer>

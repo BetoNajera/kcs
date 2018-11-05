@@ -6,6 +6,12 @@
     display: none;
 }
 
+section .wrapper {
+    p, li {
+        text-align: justify;
+    }
+}
+
 .seccion {
     padding: $margen*2 0;
 
@@ -40,6 +46,7 @@
         @include tb {
             display: flex;
             justify-content: space-between;
+            align-items: center;
             margin: $margen*2 0;
         }
 
@@ -199,12 +206,18 @@
             align-items: center;
         }
 
-        .img-articulo {
+        .img-articulo, .vid-articulo {
             margin-bottom: $margen;
 
             @include dt {
                 margin-bottom: 0;
                 width: 500px;
+            }
+        }
+
+        .vid-articulo {
+            video {
+                width: 100%;
             }
         }
 
@@ -225,7 +238,7 @@
 .seccion-principios, #propuesta-laboral, .partida-abierta {
     .wrapper {
         @include dt {
-            align-items: flex-start;
+            // align-items: flex-start;
         }
     }
 
@@ -435,9 +448,18 @@
         max-width: 800px;
         margin: 0 auto;
 
-        img {
+        iframe {
             width: 100%;
             display: block;
+            height: 200px;
+
+            @include tb {
+                height: 320px;
+            }
+
+            @include dt {
+                height: 500px;
+            }
         }
     }
 }

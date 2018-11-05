@@ -28,7 +28,7 @@
 				<li>Cómodas opciones pensando en la economía del cliente.</li>
 				<li>Emergencia accidental y medica al 100%.</li>
 				<li>Coberturas de gastos ambulatorios y hospitalarios.</li>
-				<li>Trabajamos con todas las agencias de seguros.</li>
+				<li>Trabajamos con todas las compañías de seguros</li>
 			</ul>
 		</div>
 	</article>
@@ -46,7 +46,7 @@
 				<li>Coberturas de Muerte Accidental, Invalidez total y permanente.</li>
 				<li>Cobertura para cónyuges e hijos.</li>
 				<li>Indemnización diaria por hospitalización.</li>
-				<li>Trabajamos con todas las agencias de seguros.</li>
+				<li>Trabajamos con todas las compañías de seguros</li>
 			</ul>
 		</div>
 	</article>
@@ -65,7 +65,7 @@
 				<li>Reconstrucción mamaria y de pezón para pacientes con mastectomía radical y cáncer de mama.</li>
 				<li>Despistaje oncológico anual gratuito.</li>
 				<li>Más de 30 clínicas y centros oncológicos especializados.</li>
-				<li>Trabajamos con todas las agencias de seguros.</li>
+				<li>Trabajamos con todas las compañías de seguros</li>
 			</ul>
 		</div>
 	</article>
@@ -83,7 +83,7 @@
 				<li>Cobertura total en caso de accidentes laborales.</li>
 				<li>Prevención en Salud y Seguridad Ocupacional.</li>
 				<li>Cobertura de Invalidez, Sobrevivencia y Gastos de Sepelio.</li>
-				<li>Trabajamos con todas las agencias de seguros.</li>
+				<li>Trabajamos con todas las compañías de seguros</li>
 			</ul>
 		</div>
 	</article>

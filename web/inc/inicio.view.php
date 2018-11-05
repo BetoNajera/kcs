@@ -13,7 +13,11 @@
 		<h1 class="titulo-home">KCS - KALLPA Corredores de Seguros</h1>
 		<h2 class="titulo">Bienvenidos a KCS</h2>
 
-		<figure class="img-articulo"><img src="<?php echo $serverurl; ?>img/video-bienvenida.jpg" alt="Bienvenidos al mundo de KCS"></figure>
+		<div class="vid-articulo">
+			<video preload controls poster="<?php echo $serverurl; ?>img/video-bienvenida.jpg">
+				<source src="<?php echo $serverurl; ?>vid/bienvenida.mp4" type="video/mp4">
+			</video>
+		</div>
 
 		<div class="texto-articulo">
 			<p>Bienvenidos al mundo de <span class="bold">Kallpa Corredores de Seguros</span>, donde nos esforzamos para que su tranquilidad y seguridad le permita todos los días SONREIRLE A LA VIDA.</p>
@@ -91,12 +95,32 @@
 	</div>
 </section>
 
-<section class="seccion seccion-videoinfo fondo-celeste">
+<section class="seccion seccion-videoinfo">
 	<div class="wrapper">
 		<h2 class="titulo">Video Informativo</h2>
 
-		<div class="videoinfo"><img src="<?php echo $serverurl; ?>img/video-info.jpg" alt=""></div>
+		<div class="videoinfo"><iframe width="560" height="315" src="https://www.youtube.com/embed/kgVqmSOWoXQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 	</div>
+</section>
+
+<section class="seccion seccion-partida partida-abierta fondo-celeste">
+	<article class="wrapper">
+		<h2 class="titulo">¡Hoy Celebramos Tu Cumpleaños!</h2>
+
+		<div class="vid-articulo">
+			<video preload loop controls poster="<?php echo $serverurl; ?>img/hbposter.png">
+				<source src="<?php echo $serverurl; ?>vid/happybd.mp4" type="video/mp4">
+			</video>
+		</div>
+
+		<div class="texto-articulo">
+			<p>Para Nosotros eres muy importante.</p>
+
+			<p>Te acompañaremos en cada uno de tus logros.</p>
+
+			<p>Gracias por se parte de <span class="bold">Kallpa Corredores de Seguros</span>.</p>
+		</div>
+	</article>
 </section>
 
 <section class="seccion seccion-companies">

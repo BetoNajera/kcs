@@ -31,7 +31,7 @@
 				<li>Choque, incendio, Robo Parcial (Suma asegurada).</li>
 				<li>Pérdida Total (Pago Suma Asegurada).</li>
 				<li>Daños a terceros: A la propiedad o personas (atropello hasta $100,000.00)</li>
-				<li>rabajamos con todas las agencias de seguros</li>
+				<li>Trabajamos con todas las compañías de seguros</li>
 			</ul>
 		</div>
 	</article>
@@ -48,7 +48,7 @@
 				<li>Indemnizaciones, reparación o reposición de bienes, gastos médicos, entre otros por reclamo de terceros a consecuencia de daños o lesiones causadas por actividad del cliente.</li>
 				<li>Aplicación a todo el territorio nacional.</li>
 				<li>Gastos de defensa legal en caso de procesos judiciales contra el asegurado.</li>
-				<li>Trabajamos con todas las agencias de seguros</li>
+				<li>Trabajamos con todas las compañías de seguros</li>
 			</ul>
 		</div>
 	</article>
@@ -67,7 +67,7 @@
 				<li>Cobertura en caso de daño sufrido por malos tratos durante las operaciones de carga y descarga.</li>
 				<li>Robo de Mercancía.</li>
 				<li>Diferentes modalidades para tomar el seguro en base a la frecuencia de im portaciones/exportaciones.</li>
-				<li>Trabajamos con todas las agencias de seguros.</li>
+				<li>Trabajamos con todas las compañías de seguros</li>
 			</ul>
 		</div>
 	</article>
@@ -87,7 +87,7 @@
 				<li>Indemniza al cliente frente a cualquier tipo Asalto.</li>
 				<li>Costo de restitución de documentos contables y estadísticos.</li>
 				<li>Garantiza los bienes no pertenecientes al Asegurado que se encuentren bajo su responsabilidad legal o contractual.</li>
-				<li>Trabajamos con todas las agencias de seguros.</li>
+				<li>Trabajamos con todas las compañías de seguros</li>
 			</ul>
 		</div>
 	</article>

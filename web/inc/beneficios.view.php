@@ -60,7 +60,7 @@
 
 				<div class="texto-benefit">
 					<h3 class="subtitulo">Seguro Vehicular</h3>
-					<p>Protección integral con cobertura al 100% a precios corporativos, con descuento por panilla en 12 cuotas sin intereses.</p>
+					<p>Protección integral con cobertura al 100% a precios corporativos, con descuento por planilla en 12 cuotas sin intereses.</p>
 				</div>
 			</div>
 
@@ -74,7 +74,7 @@
 			</div>
 
 			<div class="benefit">
-				<figure class="img-benefit"><img src="<?php echo $serverurl; ?>img/ceviche.jpg" alt="CEVICHERÍA LA GRAN CONCHA"></figure>
+				<figure class="img-benefit"><img src="<?php echo $serverurl; ?>img/ceviche.jpg" alt="Cevichería La Gran Concha"></figure>
 
 				<div class="texto-benefit">
 					<h3 class="subtitulo">Cevichería La Gran Concha</h3>
@@ -88,9 +88,9 @@
 				<figure class="img-benefit"><img src="<?php echo $serverurl; ?>img/premio.jpg" alt="Premiamos Tú Partición"></figure>
 
 				<div class="texto-benefit">
-					<h3 class="subtitulo">Premiamos Tú Partición</h3>
-					<p>Realizamos Sorteo, Premiaciones, entre nuestros Asociados.</p>
-					<p>Entrega de premio de la VACACIONES SOÑADAS en el departamento de salvatage de PNP</p>
+					<h3 class="subtitulo">Premiamos tu Participación</h3>
+					<p>Realizamos Sorteos, Premiaciones, entre nuestros Asociados.</p>
+					<p>Entrega de premio de la VACACIONES SOÑADAS en el departamento de salvataje de la PNP</p>
 				</div>
 			</div>
 		</div>
