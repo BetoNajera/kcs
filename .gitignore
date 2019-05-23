@@ -1,2 +1,6 @@
 node_modules/
+web/vid/
+web/old/
+web/wp-content/
+web/Prepros Export/
 package-lock.json

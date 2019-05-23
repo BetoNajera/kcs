@@ -7,7 +7,7 @@
 		<meta name="description" content="<?php echo $description; ?>">
 		<meta name="keywords" content="<?php echo $keywords; ?>">
 		<link rel=“icon” href=“favicon.ico” type=“image/x-icon” />
-		<link href="https://file.myfontastic.com/QSgMmW5LJ3kgVssPPFCmYi/icons.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 		<link rel="stylesheet" href="<?php echo $serverurl; ?>css/fonts.css">
 		<link rel="stylesheet" href="<?php echo $serverurl; ?>css/normalize.css">
 		<link rel="stylesheet" href="<?php echo $serverurl; ?>css/styles.css?t=<?php echo $t; ?>">
@@ -87,17 +87,17 @@
 				</div>
 
 				<div class="rrss-icons">
-					<div class="rrss-icon"><a href="whatsapp://send?text=Saludos me comunico por medio de la web www.kcs.pe&phone=+51952190780&abid=+51952190780" class="whatsapp-btn"><span class="icon icon-whatsapp"></span></a></div>
+					<div class="rrss-icon"><a href="whatsapp://send?text=Saludos me comunico por medio de la web www.kcs.pe&phone=+51952190780&abid=+51952190780" class="whatsapp-btn"><span class="fab fa-whatsapp"></span></a></div>
 
-					<div class="rrss-icon"><a href="https://www.facebook.com/kcscorredoresdeseguros/" target="_blank" class="facebook-btn"><span class="icon icon-facebook"></span></a></div>
+					<div class="rrss-icon"><a href="https://www.facebook.com/kcscorredoresdeseguros/" target="_blank" class="facebook-btn"><span class="fab fa-facebook-f"></span></a></div>
 
-					<div class="rrss-icon"><a href="https://www.linkedin.com/in/kcs-corredores-de-seguros-7b66b0173" target="_blank" class="linkedin-btn"><span class="icon icon-linkedin"></span></a></div>
+					<div class="rrss-icon"><a href="https://www.linkedin.com/in/kcs-corredores-de-seguros-7b66b0173" target="_blank" class="linkedin-btn"><span class="fab fa-linkedin-in"></span></a></div>
 
-					<div class="rrss-icon"><a href="https://www.instagram.com/kcs_corredores/" target="_blank" class="instagram-btn"><span class="icon icon-instagram"></span></a></div>
+					<div class="rrss-icon"><a href="https://www.instagram.com/kcs_corredores/" target="_blank" class="instagram-btn"><span class="fab fa-instagram"></span></a></div>
 
-					<div class="rrss-icon"><a href="#" class="location-btn"><span class="icon icon-location"></span></a></div>
+					<div class="rrss-icon"><a href="#" class="location-btn"><span class="fas fa-map-marker-alt"></span></a></div>
 
-					<div class="rrss-icon"><a href="tel:013910491" class="phone-btn"><span class="icon icon-phone"></span></a></div>
+					<div class="rrss-icon"><a href="tel:013910491" class="phone-btn"><span class="fas fa-phone"></span></a></div>
 				</div>
 
 				<div class="firma">
@@ -106,6 +106,6 @@
 			</div>
 		</footer>
 
-		<script src="<?php echo $serverurl; ?>js/scripts.js?t=<?php echo $t; ?>"></script>
+		<script src="<?php echo $serverurl; ?>js/scripts.js"></script>
 	</body>
 </html>

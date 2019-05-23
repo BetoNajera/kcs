@@ -99,7 +99,7 @@
 	<div class="wrapper">
 		<h2 class="titulo">Video Informativo</h2>
 
-		<div class="videoinfo"><iframe width="560" height="315" src="https://www.youtube.com/embed/kgVqmSOWoXQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+		<div class="videoinfo"><iframe width="560" height="315" src="https://www.youtube.com/embed/5rqG4l180Ac" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 	</div>
 </section>
 
@@ -108,7 +108,7 @@
 		<h2 class="titulo">¡Hoy Celebramos Tu Cumpleaños!</h2>
 
 		<div class="vid-articulo">
-			<video preload loop controls poster="<?php echo $serverurl; ?>img/hbposter.png">
+			<video preload loop controls poster="<?php echo $serverurl; ?>img/happyd-poster.png">
 				<source src="<?php echo $serverurl; ?>vid/happybd.mp4" type="video/mp4">
 			</video>
 		</div>

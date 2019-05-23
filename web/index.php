@@ -1,10 +1,12 @@
 <?php 
 
+error_reporting(0);
+
 include 'php/config.php';
 
 $p = $_GET['p'];
 
-$t = 201811051302;
+$t = 201811052013;
 
 $description = '';
 

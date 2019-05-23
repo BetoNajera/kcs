@@ -16,7 +16,7 @@
 
 <section class="seccion seccion-partida seccion-principios">
 	<article class="wrapper">
-		<h1 class="titulo">KSC Corredores de Seguros</h1>
+		<h1 class="titulo">KCS Corredores de Seguros</h1>
 
 		<figure class="img-articulo"><img src="<?php echo $serverurl; ?>img/nosotros-art1.jpg" alt="Bienvenidos al mundo de KCS"></figure>
 
