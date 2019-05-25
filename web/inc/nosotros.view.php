@@ -22,7 +22,7 @@
 
 		<div class="texto-articulo">
 			<div class="principio">
-				<div class="icono-principios icono-mision"><span class="icon icon-rocket"></span></div>
+				<div class="icono-principios icono-mision"><span class="fas fa-rocket"></span></div>
 
 				<h3 class="subtitulo">Misión</h3>
 
@@ -30,7 +30,7 @@
 			</div>
 
 			<div class="principio">
-				<div class="icono-principios icono-vision"><span class="icon icon-eye"></span></div>
+				<div class="icono-principios icono-vision"><span class="fas fa-eye"></span></div>
 
 				<h3 class="subtitulo">Visión</h3>
 

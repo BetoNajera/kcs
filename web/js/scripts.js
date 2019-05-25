@@ -24,7 +24,7 @@ let fecha = new Date(),
 		'Febrero',
 		'Marzo',
 		'Abril',
-		'MAyo',
+		'Mayo',
 		'Junio',
 		'Julio',
 		'Agosto',
@@ -74,3 +74,21 @@ setTimeout(function() {
 	$('.logo-card').css('transform', 'rotateY(0deg)');
 	$('.logo-card .frontal').css('opacity', 1);
 }, 2000);
+
+
+// Aparece Modal
+setTimeout(function() {
+	$('.bg-modal').show();
+	$('.modal').show();
+	$('.modal').addClass('bajan');
+}, 4000);
+
+
+// Cierre de Modal
+$('#cerrar-modal').on('click', function() {
+	$('.modal').removeClass('bajan');
+	$('.modal').addClass('suben');
+	setTimeout(function() {
+		$('.bg-modal').hide();
+	}, 900);
+});

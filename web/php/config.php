@@ -1,7 +1,7 @@
 <?php 
 
 $serverurl = '';
-$remoteConn = 0;
+$remoteConn = 1;
 $refrescar = 0;
 
 if ($remoteConn != 1) {

@@ -67,13 +67,28 @@ html {
             text-align: center;
         }
 
-        figure {
+        figure, div {
             margin: 0;
 
             img {
                 width: 100%;
                 display: block;
             }
+        }
+
+        input[type=submit] {
+            cursor: pointer;
+        }
+
+        @keyframes heartbeat {
+            0% {transform: scale(1.05);}
+            25% {transform: scale(1);}
+            75% {transform: scale(1.05);}
+            100% {transform: scale(1);}
+        }
+
+        .bigger {
+            animation: heartbeat 0.5s infinite;
         }
     }
 }

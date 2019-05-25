@@ -26,6 +26,18 @@
 	</head>
 
 	<body>
+		<div class="bg-modal">
+			<div class="modal">
+				<div id="cerrar-modal" class="cerrar"><span class="fas fa-times"></span></div>
+
+				<h4>"1er Pago Renta Hospitalaria Ejército del Perú"</h4>
+
+				<figure><img src="<?php echo $serverurl; ?>/img/img-modal.jpg" alt="1er Pago Renta Hospitalaria Ejército del Perú"></figure>
+
+				<p>Gracias a todos los que hacen posible que los seguros existan en la vida de cada uno de nuestros clientes y por ende puedan sentirse respaldados ellos  y sus familias cuando pase un evento por el cual se está protegido. <br> ADN KALLPA ADELANTE !!!</p>
+			</div>
+		</div>
+
 		<header>
 			<div class="menu-bar">
 				<div class="bt-menu">
@@ -79,11 +91,11 @@
 		<footer>
 			<div class="wrapper">
 				<div class="datos-footer">
-					<p><span class="icon icon-whatsapp"></span> 952-190-780</p>
+					<p><span class="fab fa-whatsapp"></span> 952-190-780</p>
 
-					<p><span class="icon icon-phone"></span> 391-0491 | 391-0492</p>
+					<p><span class="fas fa-phone"></span> 391-0491 | 391-0492</p>
 
-					<p><span class="icon icon-location"></span> Calle Fermin Tangüis 145 Of. 302 Urb. Santa Catalina - La Victoria</p>
+					<p><span class="fas fa-map-marker-alt"></span> Calle Fermin Tangüis 145 Of. 302 Urb. Santa Catalina - La Victoria</p>
 				</div>
 
 				<div class="rrss-icons">
@@ -98,6 +110,10 @@
 					<div class="rrss-icon"><a href="#" class="location-btn"><span class="fas fa-map-marker-alt"></span></a></div>
 
 					<div class="rrss-icon"><a href="tel:013910491" class="phone-btn"><span class="fas fa-phone"></span></a></div>
+				</div>
+
+				<div class="kallpa-radio-tv bigger" id="kallpa-radio-tv">
+					<a href="http://kallparadiotv.pe/" target="_blank"><img src="<?php echo $serverurl; ?>img/kallparadiotv-logo.png" alt="Radio Kallpa logo"></a>
 				</div>
 
 				<div class="firma">
