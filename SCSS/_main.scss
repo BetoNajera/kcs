@@ -333,6 +333,10 @@ section .wrapper {
             video {
                 width: 100%;
             }
+
+            @include dt {
+                width: 370px;
+            }
         }
 
         .texto-articulo {

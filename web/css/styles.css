@@ -711,20 +711,27 @@ section .wrapper p, section .wrapper li {
   width: 100%;
 }
 
-/* line 338, SCSS/_main.scss */
+@media only screen and (min-width: 769px) {
+  /* line 332, SCSS/_main.scss */
+  .seccion-partida .wrapper .vid-articulo {
+    width: 370px;
+  }
+}
+
+/* line 342, SCSS/_main.scss */
 .seccion-partida .wrapper .texto-articulo {
   text-align: center;
 }
 
 @media only screen and (min-width: 769px) {
-  /* line 338, SCSS/_main.scss */
+  /* line 342, SCSS/_main.scss */
   .seccion-partida .wrapper .texto-articulo {
     text-align: left;
     width: calc((100% - 500px) - 3rem);
   }
 }
 
-/* line 345, SCSS/_main.scss */
+/* line 349, SCSS/_main.scss */
 .seccion-partida .wrapper .texto-articulo .cta {
   background-color: #005b81;
   color: #d8e8ef;
@@ -740,12 +747,12 @@ section .wrapper p, section .wrapper li {
   background-color: #00374e;
 }
 
-/* line 359, SCSS/_main.scss */
+/* line 363, SCSS/_main.scss */
 .seccion-principios .principio:not(:last-child), #propuesta-laboral .principio:not(:last-child), .partida-abierta .principio:not(:last-child) {
   margin-bottom: 4rem;
 }
 
-/* line 363, SCSS/_main.scss */
+/* line 367, SCSS/_main.scss */
 .seccion-principios .icono-principios, #propuesta-laboral .icono-principios, .partida-abierta .icono-principios {
   background-color: #005b81;
   color: #fff;
@@ -756,37 +763,37 @@ section .wrapper p, section .wrapper li {
   border-radius: 50%;
 }
 
-/* line 372, SCSS/_main.scss */
+/* line 376, SCSS/_main.scss */
 .seccion-principios .icono-principios .fas, .seccion-principios .icono-principios .fab, .seccion-principios .icono-principios .fa, #propuesta-laboral .icono-principios .fas, #propuesta-laboral .icono-principios .fab, #propuesta-laboral .icono-principios .fa, .partida-abierta .icono-principios .fas, .partida-abierta .icono-principios .fab, .partida-abierta .icono-principios .fa {
   font-size: 3rem;
   line-height: 6rem;
 }
 
-/* line 378, SCSS/_main.scss */
+/* line 382, SCSS/_main.scss */
 .seccion-principios .subtitulo, #propuesta-laboral .subtitulo, .partida-abierta .subtitulo {
   text-align: center;
 }
 
 @media only screen and (min-width: 769px) {
-  /* line 383, SCSS/_main.scss */
+  /* line 387, SCSS/_main.scss */
   .seccion-principios .wrapper .alfinal, #propuesta-laboral .wrapper .alfinal, .partida-abierta .wrapper .alfinal {
     order: 3;
   }
 }
 
-/* line 389, SCSS/_main.scss */
+/* line 393, SCSS/_main.scss */
 .seccion-principios .wrapper .texto-articulo, #propuesta-laboral .wrapper .texto-articulo, .partida-abierta .wrapper .texto-articulo {
   text-align: left;
 }
 
 @media only screen and (min-width: 769px) {
-  /* line 389, SCSS/_main.scss */
+  /* line 393, SCSS/_main.scss */
   .seccion-principios .wrapper .texto-articulo, #propuesta-laboral .wrapper .texto-articulo, .partida-abierta .wrapper .texto-articulo {
     width: calc((100% - 500px) - 12rem);
   }
 }
 
-/* line 395, SCSS/_main.scss */
+/* line 399, SCSS/_main.scss */
 .seccion-principios .wrapper .texto-articulo .cta, #propuesta-laboral .wrapper .texto-articulo .cta, .partida-abierta .wrapper .texto-articulo .cta {
   background-color: #005b81;
   color: #d8e8ef;
@@ -802,23 +809,23 @@ section .wrapper p, section .wrapper li {
   background-color: #00374e;
 }
 
-/* line 400, SCSS/_main.scss */
+/* line 404, SCSS/_main.scss */
 .seccion-principios .wrapper .texto-articulo .lista-articulo li, #propuesta-laboral .wrapper .texto-articulo .lista-articulo li, .partida-abierta .wrapper .texto-articulo .lista-articulo li {
   list-style: square;
   margin-left: 1.8rem;
 }
 
-/* line 404, SCSS/_main.scss */
+/* line 408, SCSS/_main.scss */
 .seccion-principios .wrapper .texto-articulo .lista-articulo li:not(:last-child), #propuesta-laboral .wrapper .texto-articulo .lista-articulo li:not(:last-child), .partida-abierta .wrapper .texto-articulo .lista-articulo li:not(:last-child) {
   margin-bottom: 2rem;
 }
 
-/* line 414, SCSS/_main.scss */
+/* line 418, SCSS/_main.scss */
 .partida-abierta .subtitulo {
   text-align: left;
 }
 
-/* line 421, SCSS/_main.scss */
+/* line 425, SCSS/_main.scss */
 #propuesta-laboral form input, #propuesta-laboral form select, .seccion-contacto form input, .seccion-contacto form select {
   font-size: 1.6rem;
   padding: 5px;
@@ -826,20 +833,20 @@ section .wrapper p, section .wrapper li {
   width: 100%;
 }
 
-/* line 427, SCSS/_main.scss */
+/* line 431, SCSS/_main.scss */
 #propuesta-laboral form input:not(:last-child), #propuesta-laboral form select:not(:last-child), .seccion-contacto form input:not(:last-child), .seccion-contacto form select:not(:last-child) {
   margin-bottom: 2rem;
 }
 
 @media only screen and (min-width: 769px) {
-  /* line 433, SCSS/_main.scss */
+  /* line 437, SCSS/_main.scss */
   #propuesta-laboral form .boton .cta, .seccion-contacto form .boton .cta {
     width: 120px;
   }
 }
 
 @media only screen and (min-width: 769px) {
-  /* line 443, SCSS/_main.scss */
+  /* line 447, SCSS/_main.scss */
   .seccion-contacto form {
     display: flex;
     justify-content: space-between;
@@ -847,7 +854,7 @@ section .wrapper p, section .wrapper li {
   }
 }
 
-/* line 451, SCSS/_main.scss */
+/* line 455, SCSS/_main.scss */
 .seccion-contacto textarea {
   width: 100%;
   border: none;
@@ -859,7 +866,7 @@ section .wrapper p, section .wrapper li {
 }
 
 @media only screen and (min-width: 769px) {
-  /* line 451, SCSS/_main.scss */
+  /* line 455, SCSS/_main.scss */
   .seccion-contacto textarea {
     height: auto;
     margin-top: 0;
@@ -867,19 +874,19 @@ section .wrapper p, section .wrapper li {
 }
 
 @media only screen and (min-width: 769px) {
-  /* line 466, SCSS/_main.scss */
+  /* line 470, SCSS/_main.scss */
   .seccion-contacto .inputs, .seccion-contacto textarea {
     width: calc(50% - 2rem);
   }
 }
 
-/* line 472, SCSS/_main.scss */
+/* line 476, SCSS/_main.scss */
 .seccion-contacto .boton {
   width: 100%;
   margin-top: 2rem;
 }
 
-/* line 476, SCSS/_main.scss */
+/* line 480, SCSS/_main.scss */
 .seccion-contacto .boton .cta {
   background-color: #005b81;
   color: #d8e8ef;
@@ -895,24 +902,24 @@ section .wrapper p, section .wrapper li {
   background-color: #00374e;
 }
 
-/* line 482, SCSS/_main.scss */
+/* line 486, SCSS/_main.scss */
 .seccion-ubicanos {
   padding-bottom: 0;
 }
 
-/* line 485, SCSS/_main.scss */
+/* line 489, SCSS/_main.scss */
 .seccion-ubicanos iframe {
   width: 100%;
 }
 
-/* line 490, SCSS/_main.scss */
+/* line 494, SCSS/_main.scss */
 .seccion-cards {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 495, SCSS/_main.scss */
+/* line 499, SCSS/_main.scss */
 .seccion-cards .card-container {
   width: 50%;
   perspective: 700;
@@ -921,25 +928,25 @@ section .wrapper p, section .wrapper li {
 }
 
 @media only screen and (min-width: 481px) {
-  /* line 495, SCSS/_main.scss */
+  /* line 499, SCSS/_main.scss */
   .seccion-cards .card-container {
     width: 33.3333333%;
   }
 }
 
 @media only screen and (min-width: 769px) {
-  /* line 495, SCSS/_main.scss */
+  /* line 499, SCSS/_main.scss */
   .seccion-cards .card-container {
     width: 16.666666666%;
   }
 }
 
-/* line 509, SCSS/_main.scss */
+/* line 513, SCSS/_main.scss */
 .seccion-cards .card-container:hover .card {
   transform: rotateY(180deg);
 }
 
-/* line 513, SCSS/_main.scss */
+/* line 517, SCSS/_main.scss */
 .seccion-cards .card-container .card {
   width: 100%;
   position: relative;
@@ -949,14 +956,14 @@ section .wrapper p, section .wrapper li {
   transition: all 0.3s ease;
 }
 
-/* line 521, SCSS/_main.scss */
+/* line 525, SCSS/_main.scss */
 .seccion-cards .card-container .card .frontal, .seccion-cards .card-container .card .posterior {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
 }
 
-/* line 527, SCSS/_main.scss */
+/* line 531, SCSS/_main.scss */
 .seccion-cards .card-container .card .posterior {
   position: absolute;
   top: 0;
@@ -971,20 +978,20 @@ section .wrapper p, section .wrapper li {
   transform: rotateY(180deg);
 }
 
-/* line 540, SCSS/_main.scss */
+/* line 544, SCSS/_main.scss */
 .seccion-cards .card-container .card .posterior h3 {
   font-size: 1.9rem;
   color: #d8e8ef;
 }
 
 @media only screen and (min-width: 769px) {
-  /* line 540, SCSS/_main.scss */
+  /* line 544, SCSS/_main.scss */
   .seccion-cards .card-container .card .posterior h3 {
     font-size: 2.2rem;
   }
 }
 
-/* line 549, SCSS/_main.scss */
+/* line 553, SCSS/_main.scss */
 .seccion-cards .card-container .card .posterior .cta {
   margin-top: 2rem;
   width: 110px;
@@ -1002,14 +1009,14 @@ section .wrapper p, section .wrapper li {
   background-color: #6ca8c2;
 }
 
-/* line 560, SCSS/_main.scss */
+/* line 564, SCSS/_main.scss */
 .seccion-videoinfo .videoinfo {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
 }
 
-/* line 565, SCSS/_main.scss */
+/* line 569, SCSS/_main.scss */
 .seccion-videoinfo .videoinfo iframe {
   width: 100%;
   display: block;
@@ -1017,20 +1024,20 @@ section .wrapper p, section .wrapper li {
 }
 
 @media only screen and (min-width: 481px) {
-  /* line 565, SCSS/_main.scss */
+  /* line 569, SCSS/_main.scss */
   .seccion-videoinfo .videoinfo iframe {
     height: 320px;
   }
 }
 
 @media only screen and (min-width: 769px) {
-  /* line 565, SCSS/_main.scss */
+  /* line 569, SCSS/_main.scss */
   .seccion-videoinfo .videoinfo iframe {
     height: 500px;
   }
 }
 
-/* line 582, SCSS/_main.scss */
+/* line 586, SCSS/_main.scss */
 .seccion-companies .companies {
   width: 100%;
   display: flex;
@@ -1040,27 +1047,27 @@ section .wrapper p, section .wrapper li {
   margin-top: 2rem;
 }
 
-/* line 590, SCSS/_main.scss */
+/* line 594, SCSS/_main.scss */
 .seccion-companies .companies .companie {
   width: 40%;
   margin: 1rem;
 }
 
 @media only screen and (min-width: 481px) {
-  /* line 590, SCSS/_main.scss */
+  /* line 594, SCSS/_main.scss */
   .seccion-companies .companies .companie {
     width: 30%;
   }
 }
 
 @media only screen and (min-width: 769px) {
-  /* line 590, SCSS/_main.scss */
+  /* line 594, SCSS/_main.scss */
   .seccion-companies .companies .companie {
     width: 15%;
   }
 }
 
-/* line 605, SCSS/_main.scss */
+/* line 609, SCSS/_main.scss */
 .galeria {
   display: flex;
   flex-wrap: wrap;
@@ -1068,13 +1075,13 @@ section .wrapper p, section .wrapper li {
 }
 
 @media only screen and (min-width: 769px) {
-  /* line 605, SCSS/_main.scss */
+  /* line 609, SCSS/_main.scss */
   .galeria {
     align-items: center;
   }
 }
 
-/* line 614, SCSS/_main.scss */
+/* line 618, SCSS/_main.scss */
 .galeria .foto-galeria {
   max-width: 300px;
   width: calc(50% - 2rem/2);
@@ -1082,14 +1089,14 @@ section .wrapper p, section .wrapper li {
 }
 
 @media only screen and (min-width: 481px) {
-  /* line 614, SCSS/_main.scss */
+  /* line 618, SCSS/_main.scss */
   .galeria .foto-galeria {
     margin: 2rem 0;
   }
 }
 
 @media only screen and (min-width: 769px) {
-  /* line 614, SCSS/_main.scss */
+  /* line 618, SCSS/_main.scss */
   .galeria .foto-galeria {
     width: calc(25% - 2rem*2);
   }

@@ -14,7 +14,7 @@
 		<h2 class="titulo">Bienvenidos a KCS</h2>
 
 		<div class="vid-articulo">
-			<video preload controls poster="<?php echo $serverurl; ?>img/video-bienvenida.jpg">
+			<video preload controls poster="<?php echo $serverurl; ?>img/video-bienvenida.png">
 				<source src="<?php echo $serverurl; ?>vid/bienvenida.mp4" type="video/mp4">
 			</video>
 		</div>

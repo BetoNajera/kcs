@@ -30,11 +30,13 @@
 			<div class="modal">
 				<div id="cerrar-modal" class="cerrar"><span class="fas fa-times"></span></div>
 
-				<h4>"1er Pago Renta Hospitalaria Ejército del Perú"</h4>
+				<h4></h4>
 
 				<figure><img src="<?php echo $serverurl; ?>/img/img-modal.jpg" alt="1er Pago Renta Hospitalaria Ejército del Perú"></figure>
 
-				<p>Gracias a todos los que hacen posible que los seguros existan en la vida de cada uno de nuestros clientes y por ende puedan sentirse respaldados ellos  y sus familias cuando pase un evento por el cual se está protegido. <br> ADN KALLPA ADELANTE !!!</p>
+				<p>Con tu seguro de Asistencia Médica, tienes cubierto un 80% en medicamentos, de diferentes cadenas de farmacias.</p>
+
+				<p>Comunícate con nosotros al: <br><a style="color: #40d1fa" href="tel:013910491">391-0491</a></p>
 			</div>
 		</div>
 
