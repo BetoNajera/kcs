@@ -32,11 +32,15 @@
 
 				<h4></h4>
 
-				<figure><img src="<?php echo $serverurl; ?>/img/img-modal.jpg" alt="1er Pago Renta Hospitalaria Ejército del Perú"></figure>
+				<div class="video-modal">
+					<video controls autoplay poster="http://www.kcs.pe/emailing/img/bagua-poster.jpg">
+						<source src="http://www.kcs.pe/emailing/vid/bagua_final.mp4" type="video/mp4">
+					</video>
+				</div>
 
-				<p>Con tu seguro de Asistencia Médica, tienes cubierto un 80% en medicamentos, de diferentes cadenas de farmacias.</p>
+				<p class="centrado">Contigo siempre en esos momentos difíciles</p>
 
-				<p>Comunícate con nosotros al: <br><a style="color: #40d1fa" href="tel:013910491">391-0491</a></p>
+				<p class="centrado">Comunícate con nosotros al: <br><a style="color: #40d1fa" href="tel:013910491">391-0491</a></p>
 			</div>
 		</div>
 
