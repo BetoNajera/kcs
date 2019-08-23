@@ -88,6 +88,8 @@ setTimeout(function() {
 $('#cerrar-modal').on('click', function() {
 	$('.modal').removeClass('bajan');
 	$('.modal').addClass('suben');
+	$('#video-modal').get(0).pause();
+	$('#video-modal').get(0).currentTime = 0;
 	setTimeout(function() {
 		$('.bg-modal').hide();
 	}, 900);
