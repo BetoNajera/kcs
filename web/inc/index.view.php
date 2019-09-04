@@ -33,8 +33,8 @@
 				<h4></h4>
 
 				<div class="video-modal">
-					<video id="video-modal" controls autoplay poster="http://www.kcs.pe/emailing/img/bagua-poster.jpg">
-						<source src="http://www.kcs.pe/emailing/vid/bagua_final.mp4" type="video/mp4">
+					<video id="video-modal" controls autoplay poster="https://www.kcs.pe/emailing/img/bagua-poster.jpg">
+						<source src="https://www.kcs.pe/emailing/vid/bagua_final.mp4" type="video/mp4">
 					</video>
 				</div>
 
