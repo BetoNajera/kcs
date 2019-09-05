@@ -29,7 +29,7 @@ if ($remoteConn == 0 && $refrescar == 1) {
 }
 
 if (!isset($p) || $p == 'inicio/') {
-	$description = 'Estas es el inicio';
+	$description = 'Bienvenidos al mundo de Kallpa Corredores de Seguros, donde nos esforzamos para que su tranquilidad y seguridad le permita todos los días sonreírle a la vida';
 
 	$title = 'KCS | Corredores de Seguros - Inicio';
 

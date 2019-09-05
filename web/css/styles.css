@@ -56,46 +56,51 @@ html body .subtitulo {
 }
 
 /* line 48, SCSS/_globales.scss */
+html body strong {
+  font-weight: inherit;
+}
+
+/* line 52, SCSS/_globales.scss */
 html body .bold {
   font-family: "quattrocento-bd";
 }
 
-/* line 52, SCSS/_globales.scss */
+/* line 56, SCSS/_globales.scss */
 html body .wrapper {
   width: 90%;
   margin: 0 auto;
 }
 
 @media only screen and (min-width: 769px) {
-  /* line 52, SCSS/_globales.scss */
+  /* line 56, SCSS/_globales.scss */
   html body .wrapper {
     width: 83.3333333%;
     max-width: 1200px;
   }
 }
 
-/* line 62, SCSS/_globales.scss */
+/* line 66, SCSS/_globales.scss */
 html body .fondo-celeste {
   background-color: #d8e8ef;
 }
 
-/* line 66, SCSS/_globales.scss */
+/* line 70, SCSS/_globales.scss */
 html body .centrado {
   text-align: center;
 }
 
-/* line 70, SCSS/_globales.scss */
+/* line 74, SCSS/_globales.scss */
 html body figure, html body div {
   margin: 0;
 }
 
-/* line 73, SCSS/_globales.scss */
+/* line 77, SCSS/_globales.scss */
 html body figure img, html body div img {
   width: 100%;
   display: block;
 }
 
-/* line 79, SCSS/_globales.scss */
+/* line 83, SCSS/_globales.scss */
 html body input[type=submit] {
   cursor: pointer;
 }
@@ -115,9 +120,52 @@ html body input[type=submit] {
   }
 }
 
-/* line 90, SCSS/_globales.scss */
+/* line 94, SCSS/_globales.scss */
 html body .bigger {
   animation: heartbeat 0.5s infinite;
+}
+
+/* line 98, SCSS/_globales.scss */
+html body .alert {
+  width: 100%;
+  padding: 2rem;
+  border-right: 2px;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+/* line 105, SCSS/_globales.scss */
+html body .alert p, html body .alert li {
+  color: #fff;
+  font-size: 1.3em;
+}
+
+/* line 110, SCSS/_globales.scss */
+html body .alert li {
+  list-style: square;
+  margin-left: 1.2em;
+}
+
+/* line 114, SCSS/_globales.scss */
+html body .alert li:not(:last-child) {
+  margin-bottom: 1.2rem;
+}
+
+/* line 120, SCSS/_globales.scss */
+html body .error {
+  background: #a94242;
+  border: 1px solid #a94242;
+}
+
+/* line 125, SCSS/_globales.scss */
+html body .success {
+  background: #4caf50;
+  border: 1px solid #4caf50;
+}
+
+/* line 129, SCSS/_globales.scss */
+html body .success p {
+  text-align: center;
 }
 
 /*=======  Fin de Aspectos Generales  ========*/
@@ -993,14 +1041,14 @@ section .wrapper p, section .wrapper li {
 }
 
 /* line 556, SCSS/_main.scss */
-.seccion-cards .card-container .card .posterior h3 {
+.seccion-cards .card-container .card .posterior h2 {
   font-size: 1.9rem;
   color: #d8e8ef;
 }
 
 @media only screen and (min-width: 769px) {
   /* line 556, SCSS/_main.scss */
-  .seccion-cards .card-container .card .posterior h3 {
+  .seccion-cards .card-container .card .posterior h2 {
     font-size: 2.2rem;
   }
 }

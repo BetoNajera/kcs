@@ -11,7 +11,7 @@
 <section class="seccion seccion-partida">
 	<article class="wrapper">
 		<h1 class="titulo-home">KCS - KALLPA Corredores de Seguros</h1>
-		<h2 class="titulo">Bienvenidos a KCS</h2>
+		<h3 class="titulo">Bienvenidos a KCS</h3>
 
 		<div class="vid-articulo">
 			<video preload controls poster="<?php echo $serverurl; ?>img/video-bienvenida.png">
@@ -20,7 +20,7 @@
 		</div>
 
 		<div class="texto-articulo">
-			<p>Bienvenidos al mundo de <span class="bold">Kallpa Corredores de Seguros</span>, donde nos esforzamos para que su tranquilidad y seguridad le permita todos los días SONREIRLE A LA VIDA.</p>
+			<p>Bienvenidos al mundo de <strong class="bold">Kallpa Corredores de Seguros</strong>, donde nos esforzamos para que su tranquilidad y seguridad le permita todos los días SONREÍRLE A LA VIDA.</p>
 
 			<a href="<?php echo $serverurl; ?>nosotros/" class="cta">ingresar</a>
 		</div>
@@ -33,7 +33,7 @@
 			<figure class="frontal"><img src="<?php echo $serverurl; ?>img/laboral.png" alt="Propuesta Laboral"></figure>
 
 			<div class="posterior">
-				<h3>Propuesta Laboral</h3>
+				<h2>Propuesta Laboral</h2>
 				<a href="<?php echo $serverurl; ?>nosotros#propuesta-laboral" class="cta">ingresar</a>
 			</div>
 		</div>
@@ -44,7 +44,7 @@
 			<figure class="frontal"><img src="<?php echo $serverurl; ?>img/salud.png" alt="Seguro de Salud"></figure>
 
 			<div class="posterior">
-				<h3>Seguro de Salud</h3>
+				<h2>Seguro de Salud</h2>
 				<a href="<?php echo $serverurl; ?>salud/" class="cta">ingresar</a>
 			</div>
 		</div>
@@ -55,7 +55,7 @@
 			<figure class="frontal"><img src="<?php echo $serverurl; ?>img/vida.png" alt="Seguro de Vida"></figure>
 
 			<div class="posterior">
-				<h3>Seguro de Vida</h3>
+				<h2>Seguro de Vida</h2>
 				<a href="<?php echo $serverurl; ?>vida/" class="cta">ingresar</a>
 			</div>
 		</div>
@@ -66,7 +66,7 @@
 			<figure class="frontal"><img src="<?php echo $serverurl; ?>img/patrimonio.png" alt="Seguro de Patrimonio"></figure>
 
 			<div class="posterior">
-				<h3>Patrimonio</h3>
+				<h2>Patrimonio</h2>
 				<a href="<?php echo $serverurl; ?>patrimonio/" class="cta">ingresar</a>
 			</div>
 		</div>
@@ -77,7 +77,7 @@
 			<figure class="frontal"><img src="<?php echo $serverurl; ?>img/beneficios.png" alt="Beneficios KCS"></figure>
 
 			<div class="posterior">
-				<h3>Beneficios</h3>
+				<h2>Beneficios</h2>
 				<a href="<?php echo $serverurl; ?>beneficios/" class="cta">ingresar</a>
 			</div>
 		</div>
@@ -88,7 +88,7 @@
 			<figure class="frontal"><img src="<?php echo $serverurl; ?>img/contacto.png" alt="Contáctanos"></figure>
 
 			<div class="posterior">
-				<h3>Contáctanos</h3>
+				<h2>Contáctanos</h2>
 				<a href="<?php echo $serverurl; ?>contacto/" class="cta">ingresar</a>
 			</div>
 		</div>
@@ -97,7 +97,7 @@
 
 <section class="seccion seccion-videoinfo">
 	<div class="wrapper">
-		<h2 class="titulo">Video Informativo</h2>
+		<h3 class="titulo">Video Informativo</h3>
 
 		<div class="videoinfo"><iframe width="560" height="315" src="https://www.youtube.com/embed/5rqG4l180Ac" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 	</div>
@@ -105,7 +105,7 @@
 
 <section class="seccion seccion-partida partida-abierta fondo-celeste">
 	<article class="wrapper">
-		<h2 class="titulo">¡Hoy Celebramos Tu Cumpleaños!</h2>
+		<h3 class="titulo">¡Hoy Celebramos Tu Cumpleaños!</h3>
 
 		<div class="vid-articulo">
 			<video preload loop controls poster="<?php echo $serverurl; ?>img/happyd-poster.png">
@@ -118,7 +118,7 @@
 
 			<p>Te acompañaremos en cada uno de tus logros.</p>
 
-			<p>Gracias por se parte de <span class="bold">Kallpa Corredores de Seguros</span>.</p>
+			<p>Gracias por se parte de <strong class="bold">Kallpa Corredores de Seguros</strong>.</p>
 		</div>
 	</article>
 </section>
