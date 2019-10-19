@@ -105,20 +105,16 @@
 
 <section class="seccion seccion-partida partida-abierta fondo-celeste">
 	<article class="wrapper">
-		<h3 class="titulo">¡Hoy Celebramos Tu Cumpleaños!</h3>
-
-		<div class="vid-articulo">
-			<video preload loop controls poster="<?php echo $serverurl; ?>img/happyd-poster.png">
-				<source src="<?php echo $serverurl; ?>vid/happybd.mp4" type="video/mp4">
+		<div class="vid-articulo2">
+			<video preload controls poster="<?php echo $serverurl; ?>img/marina-poster.png">
+				<source src="<?php echo $serverurl; ?>vid/marina.mp4" type="video/mp4">
 			</video>
 		</div>
 
-		<div class="texto-articulo">
-			<p>Para Nosotros eres muy importante.</p>
-
-			<p>Te acompañaremos en cada uno de tus logros.</p>
-
-			<p>Gracias por se parte de <strong class="bold">Kallpa Corredores de Seguros</strong>.</p>
+		<div class="vid-articulo2">
+			<video preload controls poster="<?php echo $serverurl; ?>img/pnp-poster.png">
+				<source src="<?php echo $serverurl; ?>vid/pnp.mp4" type="video/mp4">
+			</video>
 		</div>
 	</article>
 </section>

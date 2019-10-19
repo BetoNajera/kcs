@@ -53,7 +53,7 @@ if (isset($_POST['submit'])) {
 	}
 
 	if (!$errores) {
-		$enviar_a = 'betonajera@formaseideas.net';
+		$enviar_a = 'telemarketing2@kcs.pe';
 		$subject = 'Información solicitada desde Website';
 		$mensaje_preparado = "<b>De:</b> $nombre<br>";
 		$mensaje_preparado .= (!empty($empresa) ? "<b>Empresa:</b> $empresa<br>" : "");
@@ -64,7 +64,7 @@ if (isset($_POST['submit'])) {
 
 		$headers = "From: $email\r\n";
 		$headers .= "Content-type: text/html; charset=utf-8\r\n";
-		$headers .= "Bcc: dev@formaseideas.com, info@formaseideas.net\r\n";
+		$headers .= "Bcc: dev@formaseideas.com, ydelatore@gmail.com\r\n";
 		$success = mail($enviar_a, $subject, $mensaje_preparado, $headers);
 		$enviado = true;
 	}

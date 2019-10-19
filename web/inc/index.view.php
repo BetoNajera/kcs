@@ -113,7 +113,7 @@
 				</div>
 			</div>
 		</footer>
-
+		
 		<script src="<?php echo $serverurl; ?>js/scripts.js"></script>
 	</body>
 </html>

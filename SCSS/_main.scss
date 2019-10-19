@@ -13,16 +13,30 @@
     background-color: rgba(0,0,0,0.7);
     transition: all 0.3s ease;
     display: none;
+    overflow: scroll;
 
     .modal {
         width: 85%;
         position: relative;
         margin: 0 auto;
-        background-color: $azul-fondo;
+        background-color: #fff;
         top: 65px;
         padding: $margen/2;
         box-shadow: 0 0 10px -2px #000;
         display: none;
+        
+        .tabla {
+            width: 70%;
+
+            @include dt {
+                width: 100%;
+                max-width: 600px;
+            }
+        }
+
+        .bloque {
+            height: $margen;
+        }
 
         @include dt {
             padding: $margen;
@@ -61,7 +75,7 @@
         }
 
         @include dt {
-            width: 600px;
+            width: calc(600px + #{$margen}*2);
         }
 
         figure, .video-modal {
@@ -83,14 +97,14 @@
             }
         }
 
-        p {
-            color: #fff;
-            position: relative;
-            z-index: 601;
-            margin-top: -3rem;
-            font-size: 1.5rem;
-            padding: $margen/2;
-            background-color: rgba(0,0,0,0.8);
+        p, a {
+            font-size: 14px;
+            // color: #fff;
+            // position: relative;
+            // z-index: 601;
+            // margin-top: -3rem;
+            // padding: $margen/2;
+            // background-color: rgba(0,0,0,0.8);
         }
     }
 
@@ -342,12 +356,25 @@ section .wrapper {
         }
 
         .vid-articulo {
+            @include dt {
+                width: 370px;
+            }
+        }
+
+        .vid-articulo, .vid-articulo2 {
             video {
                 width: 100%;
             }
+        }
+
+        .vid-articulo2 {
+            &:first-child {
+                margin-bottom: $margen*2;
+            }
 
             @include dt {
-                width: 370px;
+                margin-bottom: 0!important;
+                width: calc(50% - #{$margen}*1.5)!important;
             }
         }
 
