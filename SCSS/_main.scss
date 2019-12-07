@@ -21,7 +21,7 @@
         margin: 0 auto;
         background-color: #fff;
         top: 65px;
-        padding: $margen/2;
+        //padding: $margen/2;
         box-shadow: 0 0 10px -2px #000;
         display: none;
         
@@ -39,7 +39,7 @@
         }
 
         @include dt {
-            padding: $margen;
+            //padding: $margen;
         }
 
         .cerrar {
@@ -84,6 +84,11 @@
             text-align: center;
             transform: rotate(-5deg);
             box-shadow: 0 0 10px 1px #000;
+        }
+
+        .img-total {
+            width: 100%!important;
+            transform: rotate(0deg)!important;
         }
 
         .video-modal {
