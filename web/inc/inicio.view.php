@@ -14,7 +14,7 @@
 		<h3 class="titulo">Bienvenidos a KCS</h3>
 
 		<div class="vid-articulo">
-			<video preload controls poster="<?php echo $serverurl; ?>img/video-bienvenida.png">
+			<video preload controls poster="<?php echo $serverurl; ?>img/video-bienvenida.jpg">
 				<source src="<?php echo $serverurl; ?>vid/bienvenida.mp4" type="video/mp4">
 			</video>
 		</div>
@@ -99,7 +99,11 @@
 	<div class="wrapper">
 		<h3 class="titulo">Video Informativo</h3>
 
-		<div class="videoinfo"><iframe width="560" height="315" src="https://www.youtube.com/embed/5rqG4l180Ac" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+		<div class="videoinfo vid-articulo">
+			<video preload controls poster="<?php echo $serverurl; ?>img/video-informativo-poster.jpg">
+				<source src="<?php echo $serverurl; ?>vid/video-informativo.mp4" type="video/mp4">
+			</video>
+		</div>
 	</div>
 </section>
 

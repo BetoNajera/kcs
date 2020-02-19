@@ -451,9 +451,8 @@ html body .success p {
 
 /* line 94, SCSS/_main.scss */
 .bg-modal .modal .video-modal {
-  width: 95%;
+  width: 100%;
   transform: rotate(0deg);
-  margin-bottom: 4rem;
 }
 
 /* line 99, SCSS/_main.scss */
@@ -758,7 +757,7 @@ section .wrapper p, section .wrapper li {
 
 @media only screen and (min-width: 769px) {
   /* line 346, SCSS/_main.scss */
-  .seccion-partida .wrapper {
+  .seccion-partida .wrapper, .seccion-videoinfo .wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -767,13 +766,13 @@ section .wrapper p, section .wrapper li {
 }
 
 /* line 354, SCSS/_main.scss */
-.seccion-partida .wrapper .img-articulo, .seccion-partida .wrapper .vid-articulo {
+.seccion-partida .wrapper .img-articulo, .seccion-partida .wrapper .vid-articulo, .seccion-videoinfo .wrapper .img-articulo, .seccion-videoinfo .wrapper .vid-articulo {
   margin-bottom: 2rem;
 }
 
 @media only screen and (min-width: 769px) {
   /* line 354, SCSS/_main.scss */
-  .seccion-partida .wrapper .img-articulo, .seccion-partida .wrapper .vid-articulo {
+  .seccion-partida .wrapper .img-articulo, .seccion-partida .wrapper .vid-articulo, .seccion-videoinfo .wrapper .img-articulo, .seccion-videoinfo .wrapper .vid-articulo {
     margin-bottom: 0;
     width: 500px;
   }
@@ -781,44 +780,44 @@ section .wrapper p, section .wrapper li {
 
 @media only screen and (min-width: 769px) {
   /* line 363, SCSS/_main.scss */
-  .seccion-partida .wrapper .vid-articulo {
+  .seccion-partida .wrapper .vid-articulo, .seccion-videoinfo .wrapper .vid-articulo {
     width: 370px;
   }
 }
 
 /* line 370, SCSS/_main.scss */
-.seccion-partida .wrapper .vid-articulo video, .seccion-partida .wrapper .vid-articulo2 video {
+.seccion-partida .wrapper .vid-articulo video, .seccion-partida .wrapper .vid-articulo2 video, .seccion-videoinfo .wrapper .vid-articulo video, .seccion-videoinfo .wrapper .vid-articulo2 video {
   width: 100%;
 }
 
 /* line 376, SCSS/_main.scss */
-.seccion-partida .wrapper .vid-articulo2:first-child {
+.seccion-partida .wrapper .vid-articulo2:first-child, .seccion-videoinfo .wrapper .vid-articulo2:first-child {
   margin-bottom: 4rem;
 }
 
 @media only screen and (min-width: 769px) {
   /* line 375, SCSS/_main.scss */
-  .seccion-partida .wrapper .vid-articulo2 {
+  .seccion-partida .wrapper .vid-articulo2, .seccion-videoinfo .wrapper .vid-articulo2 {
     margin-bottom: 0 !important;
     width: calc(50% - 2rem*1.5) !important;
   }
 }
 
 /* line 386, SCSS/_main.scss */
-.seccion-partida .wrapper .texto-articulo {
+.seccion-partida .wrapper .texto-articulo, .seccion-videoinfo .wrapper .texto-articulo {
   text-align: center;
 }
 
 @media only screen and (min-width: 769px) {
   /* line 386, SCSS/_main.scss */
-  .seccion-partida .wrapper .texto-articulo {
+  .seccion-partida .wrapper .texto-articulo, .seccion-videoinfo .wrapper .texto-articulo {
     text-align: left;
     width: calc((100% - 500px) - 3rem);
   }
 }
 
 /* line 393, SCSS/_main.scss */
-.seccion-partida .wrapper .texto-articulo .cta {
+.seccion-partida .wrapper .texto-articulo .cta, .seccion-videoinfo .wrapper .texto-articulo .cta {
   background-color: #005b81;
   color: #d8e8ef;
   padding: 1rem 2rem;
@@ -829,7 +828,7 @@ section .wrapper p, section .wrapper li {
 }
 
 /* line 35, SCSS/_mixins.scss */
-.seccion-partida .wrapper .texto-articulo .cta:hover {
+.seccion-partida .wrapper .texto-articulo .cta:hover, .seccion-videoinfo .wrapper .texto-articulo .cta:hover {
   background-color: #00374e;
 }
 
