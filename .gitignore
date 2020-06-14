@@ -1,5 +1,6 @@
 node_modules/
 web/vid/
+web/emailing/vid/
 web/old/
 web/wp-content/
 web/Prepros Export/
