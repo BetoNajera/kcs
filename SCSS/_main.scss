@@ -394,6 +394,66 @@ section .wrapper {
                 @include cta($azul-fondo, $fondo-body, 10);
             }
         }
+
+        .evento-mensual {
+            margin-bottom: $margen*2;
+
+            @include dt {
+                margin-bottom: 0;
+                width: calc(50% - #{$margen});
+            }
+        }
+
+        .cumples-mes {
+            @include dt {
+                width: calc(50% - #{$margen});
+            }
+
+            table {
+                width: 100%;
+                font-size: 1.5rem;
+
+                th, td {
+                    width: 14.2857143%;
+                    background-color: #fff;
+                    padding: $margen/2 0;
+                    text-align: center;
+
+                    @include tb {
+                        height: 37px;
+                    }
+
+                    &:first-child {
+                        color: $celeste-fondo;
+                    }
+                }
+
+                th {
+                    color: $azul-fondo;
+                }
+
+                td {
+                    img {
+                        border-radius: 50%;
+                        overflow: hidden;
+
+                        @include tb {
+                            margin: 0 auto;
+                            width: 70%;
+
+                        }
+                    }
+                }
+            }
+
+            .lista-cumples {
+                margin: $margen 0 0 $margen;
+
+                li {
+                    list-style-type: square;
+                }
+            }
+        }
     }
 }
 
@@ -671,6 +731,43 @@ section .wrapper {
         @include dt {
             width: calc(25% - #{$margen}*2);
             // margin: $margen 0;
+        }
+    }
+}
+
+.actitudes {
+    @include tb {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    @include dt {
+        justify-content: space-between;
+    }
+
+    .actitud {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: $margen 0;
+
+        @include tb {
+            width: calc(50% - #{$margen});
+        }
+
+        @include dt {
+            width: calc(20% - #{$margen});
+        }
+
+        img {
+            width: 60px;
+            height: 60px;
+        }
+
+        .subtitulo {
+            margin-bottom: 0;
         }
     }
 }

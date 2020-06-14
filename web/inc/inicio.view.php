@@ -95,16 +95,24 @@
 	</div>
 </section>
 
-<section class="seccion seccion-videoinfo">
+<section class="seccion seccion-partida partida-abierta seccion-videoinfo">
 	<div class="wrapper">
-		<h3 class="titulo">Video Informativo</h3>
+		<h3 class="titulo centrado">Video Informativo</h3>
+	</div>
 
-		<div class="videoinfo vid-articulo">
-			<video preload controls poster="<?php echo $serverurl; ?>img/video-informativo-poster.jpg">
-				<source src="<?php echo $serverurl; ?>vid/video-informativo.mp4" type="video/mp4">
+	<article class="wrapper">
+		<div class="vid-articulo2">
+			<video preload controls poster="<?php echo $serverurl; ?>img/video-informativo-poster2.png">
+				<source src="<?php echo $serverurl; ?>vid/video-informativo2.mp4" type="video/mp4">
 			</video>
 		</div>
-	</div>
+
+		<div class="vid-articulo2">
+			<video preload controls poster="<?php echo $serverurl; ?>img/video-informativo-poster3.png">
+				<source src="<?php echo $serverurl; ?>vid/video-informativo3.mp4" type="video/mp4">
+			</video>
+		</div>
+	</article>
 </section>
 
 <section class="seccion seccion-partida partida-abierta fondo-celeste">

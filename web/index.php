@@ -6,7 +6,7 @@ include 'php/config.php';
 
 $p = $_GET['p'];
 
-$t = 2401201341;
+$t = date('YmdHi');
 
 $description = '';
 
