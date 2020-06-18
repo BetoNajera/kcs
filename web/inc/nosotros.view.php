@@ -155,53 +155,53 @@
 
 				<tbody>
 					<tr>
-						<td></td>
-						<td><img src="../img/dante.png" title="Dante"></td>
-						<td>2</td>
-						<td>3</td>
-						<td>4</td>
-						<td>5</td>
-						<td>6</td>
+						<td></td><!-- Domingo -->
+						<td><img src="../img/dante.png" title="Dante"></td><!-- Lunes -->
+						<td>2</td><!-- Martes -->
+						<td>3</td><!-- Miercoles -->
+						<td>4</td><!-- Jueves -->
+						<td>5</td><!-- Viernes -->
+						<td>6</td><!-- Sabado -->
 					</tr>
 
 					<tr>
-						<td>7</td>
-						<td>8</td>
-						<td>9</td>
-						<td><img src="../img/yashin.png" title="Yashin"></td>
-						<td>11</td>
-						<td>12</td>
-						<td>13</td>
+						<td>7</td><!-- Domingo -->
+						<td>8</td><!-- Lunes -->
+						<td>9</td><!-- Martes -->
+						<td><img src="../img/yashin.png" title="Yashin"></td><!-- Miercoles -->
+						<td>11</td><!-- Jueves -->
+						<td>12</td><!-- Viernes -->
+						<td>13</td><!-- Sabado -->
 					</tr>
 
 					<tr>
-						<td>14</td>
-						<td>15</td>
-						<td>16</td>
-						<td>17</td>
-						<td>18</td>
-						<td>19</td>
-						<td>20</td>
+						<td>14</td><!-- Domingo -->
+						<td>15</td><!-- Lunes -->
+						<td>16</td><!-- Martes -->
+						<td>17</td><!-- Miercoles -->
+						<td>18</td><!-- Jueves -->
+						<td>19</td><!-- Viernes -->
+						<td>20</td><!-- Sabado -->
 					</tr>
 
 					<tr>
-						<td>21</td>
-						<td>22</td>
-						<td>23</td>
-						<td>24</td>
-						<td>25</td>
-						<td>26</td>
-						<td>27</td>
+						<td>21</td><!-- Domingo -->
+						<td>22</td><!-- Lunes -->
+						<td>23</td><!-- Martes -->
+						<td><img src="../img/eliana.png" title="Eliana"></td><!-- Miercoles -->
+						<td>25</td><!-- Jueves -->
+						<td>26</td><!-- Viernes -->
+						<td>27</td><!-- Sabado -->
 					</tr>
 
 					<tr>
-						<td>28</td>
-						<td>29</td>
-						<td>30</td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
+						<td>28</td><!-- Domingo -->
+						<td>29</td><!-- Lunes -->
+						<td>30</td><!-- Martes -->
+						<td></td><!-- Miercoles -->
+						<td></td><!-- Jueves -->
+						<td></td><!-- Viernes -->
+						<td></td><!-- Sabado -->
 					</tr>
 				</tbody>
 			</table>
@@ -209,6 +209,7 @@
 			<ul class="lista-cumples">
 				<li><span class="nombre bold">Dante</span> - 1ro de Junio</li>
 				<li><span class="nombre bold">Yashin</span> - 10 de Junio</li>
+				<li><span class="nombre bold">Eliana</span> - 24 de Junio</li>
 			</ul>		
 		</div>
 	</div>
@@ -219,15 +220,17 @@
 		<h2 class="titulo">Galería de Imágenes</h2>
 
 		<div class="galeria">
-			<figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/1.jpg" alt=""></figure>
-			<figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/2.jpg" alt=""></figure>
-			<figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/3.jpg" alt=""></figure>
-			<figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/4.jpg" alt=""></figure>
-			<figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/5.jpg" alt=""></figure>
-			<figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/6.jpg" alt=""></figure>
-            <figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/7.jpg" alt=""></figure>
-            <figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/8.jpg" alt=""></figure>
+			<figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/11.jpg" alt=""></figure>
+            <figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/10.jpg" alt=""></figure>
             <figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/9.jpg" alt=""></figure>
+            <figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/8.jpg" alt=""></figure>
+            <figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/7.jpg" alt=""></figure>
+            <figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/6.jpg" alt=""></figure>
+            <figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/5.jpg" alt=""></figure>
+            <figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/4.jpg" alt=""></figure>
+            <figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/3.jpg" alt=""></figure>
+            <figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/1.jpg" alt=""></figure>
+            <figure class="foto-galeria"><img src="<?php echo $serverurl; ?>img/galeria/2.jpg" alt=""></figure>
 		</div>
 	</div>
 </section>
