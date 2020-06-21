@@ -6,6 +6,8 @@
 			<figure class="posterior"><a href="<?php echo $serverurl; ?>"><img src="<?php echo $serverurl; ?>img/kallpa-old-logo.png" alt="KCS Coderredores de Seguros logo"></a></figure>
 		</div>
 	</div>
+
+	<p class="texto-banner-home">KALLPA es una palabra quechua que significa FUERZA Y TAMBIÉN FORTALEZA, esta última nos identifica hace 14 años, somos una empresa Peruana que ha podido surgir pese a los malos momentos, con una clara visión de aportar mejores proyectos para nuestro País.</p>
 </section>
 
 <section class="seccion seccion-partida">

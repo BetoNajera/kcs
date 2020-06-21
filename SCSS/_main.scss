@@ -227,7 +227,7 @@ section .wrapper {
 .seccion-home-hero,
 .seccion-inner-hero  {
     margin-top: 39px;
-    background-image: url(../img/home-hero.png);
+    background-image: url(../img/home-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
@@ -284,12 +284,29 @@ section .wrapper {
 }
 
 .seccion-home-hero {
+    position: relative;
 
     .contenedor-logos {
         width: 180px;
 
         @include dt {
             width: 250px;
+        }
+    }
+
+    .texto-banner-home {
+        display: none;
+
+        @include dt {
+            font-family: $font-bd;
+            color: #fff;
+            text-align: justify;
+            display: block;
+            width: calc(50% - 300px);
+            position: absolute;
+            right: 50px;
+            top: 50%;
+            transform: translateY(-50%);
         }
     }
 }
